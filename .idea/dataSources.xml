@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2234920257">
+    <data-source source="LOCAL" name="Rails weather: development" uuid="855e036c-5111-4743-97cf-4abc56566edb">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/weather_development</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails weather: test" uuid="1d28251b-75b9-42b2-b046-feb807ed8eab">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/active_zoo_test</jdbc-url>
+      <user-name>root</user-name>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails weather: production" uuid="bb24f22d-6c92-4c48-95c4-a511375e3b81">
+      <driver-ref>mysql</driver-ref>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://127.0.0.1/heroku_3d776307074aae7</jdbc-url>
+      <user-name>bf616b803248cf</user-name>
+      <user-password>df9bdfccdfc8df99dfc8df9edfc8df98</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

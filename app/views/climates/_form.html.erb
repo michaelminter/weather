@@ -1,0 +1,49 @@
+<%= form_for(@climate) do |f| %>
+  <% if @climate.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@climate.errors.count, "error") %> prohibited this climate from being saved:</h2>
+
+      <ul>
+      <% @climate.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :temperature %><br>
+    <%= f.text_field :temperature %>
+  </div>
+  <div class="field">
+    <%= f.label :pressure %><br>
+    <%= f.text_field :pressure %>
+  </div>
+  <div class="field">
+    <%= f.label :humidity %><br>
+    <%= f.text_field :humidity %>
+  </div>
+  <div class="field">
+    <%= f.label :temperature_min %><br>
+    <%= f.text_field :temperature_min %>
+  </div>
+  <div class="field">
+    <%= f.label :temperature_max %><br>
+    <%= f.text_field :temperature_max %>
+  </div>
+  <div class="field">
+    <%= f.label :wind_speed %><br>
+    <%= f.text_field :wind_speed %>
+  </div>
+  <div class="field">
+    <%= f.label :wind_degrees %><br>
+    <%= f.text_field :wind_degrees %>
+  </div>
+  <div class="field">
+    <%= f.label :clouds %><br>
+    <%= f.text_field :clouds %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

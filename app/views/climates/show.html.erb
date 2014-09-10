@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Temperature:</strong>
+  <%= @climate.temperature %>
+</p>
+
+<p>
+  <strong>Pressure:</strong>
+  <%= @climate.pressure %>
+</p>
+
+<p>
+  <strong>Humidity:</strong>
+  <%= @climate.humidity %>
+</p>
+
+<p>
+  <strong>Temperature min:</strong>
+  <%= @climate.temperature_min %>
+</p>
+
+<p>
+  <strong>Temperature max:</strong>
+  <%= @climate.temperature_max %>
+</p>
+
+<p>
+  <strong>Wind speed:</strong>
+  <%= @climate.wind_speed %>
+</p>
+
+<p>
+  <strong>Wind degrees:</strong>
+  <%= @climate.wind_degrees %>
+</p>
+
+<p>
+  <strong>Clouds:</strong>
+  <%= @climate.clouds %>
+</p>
+
+<%= link_to 'Edit', edit_climate_path(@climate) %> |
+<%= link_to 'Back', climates_path %>

@@ -1,0 +1,14 @@
+<table>
+  <thead>
+    <th>Name</th>
+    <th>Temperatue</th>
+  </thead>
+  <tbody>
+    <% @cities.each do |city| %>
+    <tr>
+      <td><%= city.name -%></td>
+      <td><%= city.climates.last.temperature -%></td>
+    </tr>
+    <% end %>
+  </tbody>
+</table>
